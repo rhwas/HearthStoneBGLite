@@ -1,0 +1,18 @@
+"""
+        Description
+
+        Arguments:
+            arg {type} -- description
+
+        Keyword Arguments:
+            arg {type} -- description (default: {value})
+
+        Returns:
+            type -- description
+        """
+
+logging.debug('This message should go to the log file')
+logging.info('So should this %s', x)
+logging.info('So should this %i', x)
+logging.warning('And this, too')
+logging.error('And non-ASCII stuff, too, like Øresund and Malmö')

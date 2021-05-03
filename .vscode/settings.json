@@ -1,0 +1,6 @@
+{
+    "workbench.colorCustomizations": {
+    
+    },
+    "python.autoComplete.extraPaths": ["./HearthStoneBGLite"]
+}
