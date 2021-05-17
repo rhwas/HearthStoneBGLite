@@ -3,13 +3,19 @@ import logging
 from cards.tier1 import *
 from game.warband import Warband
 from game.simulator import Simulator
+import os
 
-logging.basicConfig(filename='main.log', level=logging.DEBUG)
+os.remove("main.log")
+
 
 playerWarband = Warband("Player", [DragonspawnLieutenant()])
-computerWarband = Warband("Computer", [RefreshingAnomoly(), AcolyteOfCThun()])
+computerWarband = Warband("Computer", [AcolyteOfCThun(), AcolyteOfCThun(), AcolyteOfCThun(), AcolyteOfCThun()])
 
-nRounds = 10
+nRounds = 1
+if nRounds > 10:
+    logging.basicConfig(filename='main.log', level=logging.WARNING)
+else:
+    logging.basicConfig(filename='main.log', level=logging.DEBUG)
 playerWins = 0
 computerWins = 0
 ties = 0

@@ -3,7 +3,7 @@ from cards.base import Card
 
 class DragonspawnLieutenant(Card):
     def __init__(self):
-        super().__init__("Dragonspawn Lieutenant", 1, 2, 3, taunt=True)
+        super().__init__("Dragonspawn Lieutenant", 1, 1, 10, taunt=True)
 
 class AcolyteOfCThun(Card):
     def __init__(self):

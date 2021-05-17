@@ -7,6 +7,20 @@ class Simulator:
         self.defendingWarband = warband2
         self.winner = None
     
+    def simulate(self, attackingWarband, defendingWarband):
+        attackingCard = attackingWarband.select_attacking_card()
+        defendingCard = defendingWarband.select_defending_card()
+
+        attackingCard.receive_damage(defendingCard.attack)
+        defendingCard.receive_damage(attackingCard.attack)
+
+        if attackingCard.isDead():
+            attackingWarband.remove_card(attackingCard)
+        if defendingCard.isDead():
+            defendingWarband.remove_card(defendingCard)
+        
+        return (attackingWarband, defendingWarband)
+
     def simulate(self):
         """
         Simulation of round
@@ -15,15 +29,18 @@ class Simulator:
         turnCounter = 0
         while self.attackingWarband.length > 0 and self.defendingWarband.length > 0:
             logging.info("[SIMULATOR] Turn %i", turnCounter)
+            logging.debug("[%s] Attacking Warband: %s", self.attackingWarband.name, [card.name + f'({card.ID})' + ': ' + str(card.attack) + ', ' + str(card.health) for card in self.attackingWarband.cards])
+            logging.debug("[%s] Defending Warband: %s", self.defendingWarband.name, [card.name + f'({card.ID})' + ': ' + str(card.attack) + ', ' + str(card.health) for card in self.defendingWarband.cards])
+            logging.debug("[%s] Current attacking position: %i", self.attackingWarband.name, self.attackingWarband.attackingPosition)
             attackingCard = self.attackingWarband.select_attacking_card()
             defendingCard = self.defendingWarband.select_defending_card()
-            logging.debug("[%s] Attacking Card: %s A: %i, H: %i", self.attackingWarband.name, attackingCard.name, attackingCard.attack, attackingCard.health)
-            logging.debug("[%s] Defending Card: %s A: %i, H: %i", self.defendingWarband.name, defendingCard.name, defendingCard.attack, defendingCard.health)
+            # logging.debug("[%s] Attacking Card: %s (ID: %i) A: %i, H: %i", self.attackingWarband.name, attackingCard.name, attackingCard.ID, attackingCard.attack, attackingCard.health)
+            # logging.debug("[%s] Defending Card: %s (ID: %i) A: %i, H: %i", self.defendingWarband.name, defendingCard.name, defendingCard.ID, defendingCard.attack, defendingCard.health)
             
             attackingCard.receive_damage(defendingCard.attack)
             defendingCard.receive_damage(attackingCard.attack)
-            logging.debug("[%s] Attacking Card: %s A: %i, H: %i -- Inflicts %i damage", self.attackingWarband.name, attackingCard.name, attackingCard.attack, attackingCard.health, attackingCard.attack)
-            logging.debug("[%s] Defending Card: %s A: %i, H: %i -- Inflicts %i damage", self.defendingWarband.name, defendingCard.name, defendingCard.attack, defendingCard.health, defendingCard.attack)
+            logging.debug("[%s] Attacking Card: %s (ID: %i) A: %i, H: %i -- Inflicts %i damage", self.attackingWarband.name, attackingCard.name, attackingCard.ID, attackingCard.attack, attackingCard.health, attackingCard.attack)
+            logging.debug("[%s] Defending Card: %s (ID: %i) A: %i, H: %i -- Inflicts %i damage", self.defendingWarband.name, defendingCard.name, defendingCard.ID, defendingCard.attack, defendingCard.health, defendingCard.attack)
 
             if attackingCard.isDead():
                 self.attackingWarband.remove_card(attackingCard)
@@ -46,6 +63,9 @@ class Simulator:
             self.winner = self.attackingWarband.name
         elif self.attackingWarband.length == 0:
             self.winner = self.defendingWarband.name
+
+        logging.debug("[%s] Attacking Warband: %s", self.attackingWarband.name, [card.name + ': ' + str(card.attack) + ', ' + str(card.health) for card in self.attackingWarband.cards])
+        logging.debug("[%s] Defending Warband: %s", self.defendingWarband.name, [card.name + ': ' + str(card.attack) + ', ' + str(card.health) for card in self.defendingWarband.cards])
 
         if self.winner == 0:
             logging.info("Non one wins, its a tie")

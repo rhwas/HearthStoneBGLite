@@ -5,6 +5,7 @@ class Card:
                 tier: int,
                 base_attack: int,
                 base_health: int,
+                ID: int = None,
                 attack: int = None,
                 health: int = None,
                 taunt: bool = False,
@@ -28,6 +29,7 @@ class Card:
         self.tier = tier
         self.base_attack = base_attack
         self.base_health = base_health
+        self.ID = ID
         if attack == None: self.attack = self.base_attack
         else: self.attack = attack
         if health == None: self.health = self.base_health
@@ -46,6 +48,7 @@ class Card:
                     tier = self.tier,
                     base_attack = self.base_attack,
                     base_health = self.base_health,
+                    ID = self.ID,
                     attack = self.attack,
                     health = self.health,
                     taunt = self.taunt,

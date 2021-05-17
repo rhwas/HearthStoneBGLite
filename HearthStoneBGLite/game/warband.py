@@ -17,9 +17,11 @@ class Warband:
         Keyword Arguments:
             arg {type} -- description (default: {value})
         """
+        self.ID = [0, 1, 2, 3, 4, 5, 6]
         self.name = name
         self.cards = []
         for c in cards:
+            c.ID = self.ID.pop(0)
             self.cards.append(c)
         self.length = len(self.cards)
         self.attackingPosition = 0
@@ -27,6 +29,12 @@ class Warband:
         self.defendingCard = None
     
     def copy(self):
+        """
+        Copy current warband.
+
+        Returns:
+            Warband {Warband()} -- copy of current warband state
+        """
         return Warband(name=self.name, cards=[card.copy() for card in self.cards])
 
     def add_card(self, card: Generic[T]):
@@ -38,6 +46,7 @@ class Warband:
             card {Card} -- card to be added to warband
         """
         if self.length < 7:
+            card.ID = self.ID.pop(0)
             self.cards.append(card)
             self.length += 1
         else: logging.warning("Warband is full. Card not added.")
@@ -51,6 +60,7 @@ class Warband:
         """
         try:
             self.cards.remove(card)
+            self.ID.insert(card.ID, card.ID)
             self.length -= 1
         except:
             logging.warning("Tried to remove card from warband. Either card does not exist in warband OR warband empty. Card given: %s.", card.name)
@@ -61,8 +71,14 @@ class Warband:
         elif self.attackingPosition > self.length and self.attackingPosition - 1 == self.length:
             self.attackingPosition = 0
         elif self.attackingPosition > self.length:
-            self.attackingPosition = self.length - 1
-        return self.cards[self.attackingPosition]
+            self.attackingPosition = self.length - 1 
+        card = self.cards[self.attackingPosition]
+        self.attackingPosition += 1
+        return card
     
     def select_defending_card(self):
-        return self.cards[r.randrange(0, self.length)]
+        taunts = [idx for idx, card in enumerate(self.cards) if card.taunt]
+        if len(taunts) > 0:
+            return self.cards[taunts[r.randrange(0, len(taunts))]]
+        else:
+            return self.cards[r.randrange(0, len(self.cards))]
