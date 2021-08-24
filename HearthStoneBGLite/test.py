@@ -3,10 +3,13 @@ from game.simulator import Simulator
 from game.warband import Warband
 from cards.tier1 import *
 
-simulator = Simulator(None, None)
 
-attackingWarband = Warband('Player1',[DragonspawnLieutenant()])
-defendingWarband = Warband('Player2',[AcolyteOfCThun(), AcolyteOfCThun(), AcolyteOfCThun(), AcolyteOfCThun()])
+def test_taunt():
+    player1Warband = Warband('Player1',[RefreshingAnomoly()])
+    player2Warband = Warband('Player2',[RefreshingAnomoly(), DragonspawnLieutenant(), RefreshingAnomoly()])
 
-def test_answer():
-    assert simulator.simulate(attackingWarband, defendingWarband) == 4
+    simulator = Simulator(player1Warband, player2Warband)
+    simulator.turn()
+    print(simulator.defendingWarband.cards[1].name)
+    print(simulator.defendingWarband.cards[1].health)
+    assert simulator.defendingWarband.cards[1].health == 2
