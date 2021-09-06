@@ -76,7 +76,7 @@ def select_defending_card(defendingWarband: Type[Warband]) -> Type[Card]:
     Returns:
         card {Card} -- defending card
     """
-    taunts = defendingWarband.getTaunts()
+    taunts = defendingWarband.getTauntsIndex()
     if len(taunts) > 0:
         return defendingWarband.cards[taunts[r.randrange(0, len(taunts))]]
     else:

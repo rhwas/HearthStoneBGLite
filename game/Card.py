@@ -1,4 +1,5 @@
 from typing import Type
+import shortuuid
 
 class Card:
     def __init__(self,
@@ -6,6 +7,7 @@ class Card:
                 tier: int,
                 base_attack: int,
                 base_health: int,
+                ID: str = shortuuid.ShortUUID().random(length=5),
                 positionID: int = None,
                 attack: int = None,
                 health: int = None,
@@ -27,7 +29,7 @@ class Card:
             taunt {bool} -- Standard Taunt (default: {False})
             reborn {bool} -- Standard Reborn (default: {False})
         """
-
+        self.ID = ID
         self.name = name
         self.tier = tier
         self.base_attack = base_attack
@@ -41,6 +43,7 @@ class Card:
         else: self.health = health
         self.taunt = taunt
         self.reborn = reborn
+        self.battlecry = battlecry
         self.isDead = False
     
     def copy(self):
@@ -54,6 +57,7 @@ class Card:
                     tier = self.tier,
                     base_attack = self.base_attack,
                     base_health = self.base_health,
+                    ID = self.ID,
                     positionID = self.positionID,
                     attack = self.attack,
                     health = self.health,
