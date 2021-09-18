@@ -29,7 +29,7 @@ class Warband:
         return len(self.cards)
     
     def getTauntsIndex(self) -> List:
-        return [idx for idx, card in enumerate(self.cards) if card.taunt]
+        return [idx for idx, card in enumerate(self.cards) if card.attributes["taunt"]]
 
     def copy(self):
         """

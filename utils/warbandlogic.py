@@ -55,6 +55,8 @@ def kill_card(warband: Type[Warband], card: Type[Card]) -> None:
     """
     remove_card(warband, card)
     warband.attackingPosition -= 1
+    if warband.attackingPosition < 0:
+        warband.attackingPosition = 0
 
 def select_attacking_card(attackingWarband: Type[Warband]) -> Type[Card]:
     """
@@ -65,7 +67,12 @@ def select_attacking_card(attackingWarband: Type[Warband]) -> Type[Card]:
     Returns:
         card {Card} -- attacking card
     """
-    return attackingWarband.cards[attackingWarband.attackingPosition]
+    try:
+        return attackingWarband.cards[attackingWarband.attackingPosition]
+    except:
+        print(attackingWarband.cards)
+        print(attackingWarband.attackingPosition)
+        raise
 
 def select_defending_card(defendingWarband: Type[Warband]) -> Type[Card]:
     """

@@ -5,7 +5,7 @@ from utils.cardlogic import *
 class TestCardLogic(unittest.TestCase):
 
     def setUp(self):
-        self.card = Card('test',1,1,1,attack=1,health=0)
+        self.card = Card('test',1,1,1,attack=1,health=0, image='')
         self.damage = 1
 
     def test_that_card_is_dead_with_zero_health(self):

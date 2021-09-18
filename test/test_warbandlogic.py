@@ -7,8 +7,10 @@ from utils.warbandlogic import *
 class TestWarbandLogic(unittest.TestCase):
 
     def setUp(self):
-        self.card = Card('test',1,1,1,attack=1,health=0, positionID=0)
-        self.tauntCard = Card('test_taunt',1,1,1,attack=1,health=0, positionID=0, taunt=True)
+        self.attributes = {"divineshield": False, "taunt": False, "battlecry": False, "deathrattle": False, "reborn": False, "atstartofcombat": False, "bloodgem": False, "refresh": False}
+        self.card = Card('test', 1, 1, 1, positionID=0, attributes=self.attributes, image='')
+        self.tauntCard = self.card.copy()
+        self.tauntCard.attributes["taunt"] = True
         self.warband = Warband('TestPlayer', [])
         self.damage = 1
 
@@ -29,7 +31,7 @@ class TestWarbandLogic(unittest.TestCase):
         initialAttackingPosition = warband.attackingPosition
         kill_card(warband, self.card)
         self.assertNotIn(self.card, self.warband.cards)
-        self.assertEqual(initialAttackingPosition, warband.attackingPosition + 1)
+        self.assertEqual(initialAttackingPosition, warband.attackingPosition)
     
     def test_kill_card_that_is_not_in_warband(self):
         warband = Warband('TestPlayer', [])
@@ -55,7 +57,7 @@ class TestWarbandLogic(unittest.TestCase):
     def test_select_defending_card_returns_a_taunt_when_taunts_available(self):
         warband = Warband('TestPlayer', [self.tauntCard])
         defendingCard = select_defending_card(warband)
-        self.assertIs(defendingCard.taunt, True)
+        self.assertIs(defendingCard.attributes["taunt"], True)
     
     def test_select_defending_card_no_cards_available(self):
         with self.assertRaises(ValueError):

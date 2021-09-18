@@ -1,0 +1,582 @@
+{
+    "cards": [
+        {
+            "id": 63614,
+            "collectible": 0,
+            "slug": "63614-acolyte-of-cthun",
+            "classId": 12,
+            "multiClassIds": [],
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 2,
+            "attack": 2,
+            "manaCost": 1,
+            "name": "Acolyte of C'Thun",
+            "text": "<b>Taunt</b> <b>Reborn</b>",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e44004b944aff66bfdd9f78852d55318994ce27cab171344856d02bec738ce5.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2793339e28703b0b7c496de8659e89baae926b8f146ddd0928e2bb5be0e62905.png",
+            "keywordIds": [
+                1,
+                78
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 65658,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69f7faa7a4a1a83a9fbd93f241791ecc80d80a08585aeb35cd22a860973a7563.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e18e18931a40ed65431a3ae79ab91d00aa78fe62e8f96465701e394d3f2c1f3f.png"
+            }
+        },
+        {
+            "id": 40426,
+            "collectible": 1,
+            "slug": "40426-alleycat",
+            "classId": 3,
+            "multiClassIds": [],
+            "minionTypeId": 20,
+            "cardTypeId": 4,
+            "cardSetId": 25,
+            "rarityId": 1,
+            "artistName": "Anton Zemskov",
+            "health": 1,
+            "attack": 1,
+            "manaCost": 1,
+            "name": "Alleycat",
+            "text": "<b>Battlecry:</b> Summon a 1/1 Cat.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67fd23a37d96fe58fcaad9d038fb65beae90cdea2e2d8c0f2343748fadbf96a8.png",
+            "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e8d0d48dfef6fd9334126bb8116702e7004860345a9e256714f486b75234568.png",
+            "flavorText": "To be a cool cat in Gadgetzan, you gotta have bling.",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3044140bd15f8c0aa94cd5efd1ae944434d414081b4c1c86058f0ed340e5f639.png",
+            "childIds": [
+                40425
+            ],
+            "keywordIds": [
+                8
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 60053,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e7052bff66dfe3517aa3337e9aed78d5851a38837abf8c5c1f58754365a3cbd8.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72b163c71f8b4358428838ea19d4b5843be3f205ab219a4b94a6cba5b92add39.png"
+            }
+        },
+        {
+            "id": 61055,
+            "collectible": 0,
+            "slug": "61055-deck-swabbie",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 23,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 2,
+            "attack": 2,
+            "manaCost": 3,
+            "name": "Deck Swabbie",
+            "text": "<b>Battlecry:</b> Reduce the cost of upgrading Bob's Tavern by (1).",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83df7e7fc821acd05b2b40e9b148e15e2c6383bcf2b628391f3086901eab4426.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9a7d789003b5167aa248fe55c4a59a6bfe069b3c154b3fc8d6b75c820e18de39.png",
+            "keywordIds": [
+                8
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 62186,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/756dc66434f12d463328999e014f06064b70849fc670ef414944bbd16b71ccd1.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7f496aa38ce86bf1d2803b477b0d4d4f6751e7f521216192308a0320aafa012e.png"
+            }
+        },
+        {
+            "id": 74659,
+            "collectible": 0,
+            "slug": "74659-evolving-chromawing",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 24,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 3,
+            "attack": 1,
+            "manaCost": 1,
+            "name": "Evolving Chromawing",
+            "text": "After you upgrade your Tavern Tier, double this minion's Attack.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84250d08852a13fc7375fbc26d01806d72cc170584e3304afbfca81eb5b39dd7.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e04875d251841c730f54fd9b5cf7e4ad89ddc81d122d24f56a380493a23b8b9.png",
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 74661,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4d07f3e37ee67c6ffa5f47091642a9392c1bff85890c9036aed2f5eed34c7360.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10ce3e16e638554e304cabe1ae56cff54c8d9cc9ed31a8142bee3dad0abd8365.png"
+            }
+        },
+        {
+            "id": 74910,
+            "collectible": 0,
+            "slug": "74910-icky-imp",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 15,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 1,
+            "attack": 1,
+            "manaCost": 1,
+            "name": "Icky Imp",
+            "text": "<b>Deathrattle:</b> Summon two 1/1 Imps.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/954794a529a6d731fdf45fba92600f768ac0729258464128d446299af4b44df2.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec45fec561e0914350e3a407c89b446670bd7975a6a6fe621897db9262330d22.png",
+            "childIds": [
+                2779
+            ],
+            "keywordIds": [
+                12
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 74911,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aa7a77668571d25319c257353e434aaa6bf07be68bd8d1b8a1570ac215968c35.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ce6137de82ce651b9786ae30a211fb8486905a6ca8a7eb867919df7c5b81700.png"
+            }
+        },
+        {
+            "id": 72059,
+            "collectible": 0,
+            "slug": "72059-impulsive-trickster",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 15,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 2,
+            "attack": 2,
+            "manaCost": 1,
+            "name": "Impulsive Trickster",
+            "text": "<b>Deathrattle:</b> Give this minion's maximum Health to a friendly minion.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/beffd5664087603a8bc6260f77d9341de94409e728577353622eed37314a6274.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/488b58c481182536d7d573cadf8e15e25ba0b15fcb68ac7cd1e3a8050628af79.png",
+            "keywordIds": [
+                12
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 72922,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f9bca6028a463aa34ba4889a23418da4cce0459afefef38eda0f0ee0291ae81.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76798454ae6cbe6ae7cb746306d97f7802bdb11133ed5ebe6bf60683de9242fb.png"
+            }
+        },
+        {
+            "id": 53445,
+            "collectible": 1,
+            "slug": "53445-micro-mummy",
+            "classId": 5,
+            "multiClassIds": [],
+            "minionTypeId": 17,
+            "cardTypeId": 4,
+            "cardSetId": 1158,
+            "rarityId": 4,
+            "artistName": "Matt Dixon",
+            "health": 2,
+            "attack": 1,
+            "manaCost": 2,
+            "name": "Micro Mummy",
+            "text": "<b>Reborn</b> At the end of your turn, give another random friendly minion +1 Attack.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/36d2dd9aa2ef568070b376e54258b0d59cbfdb4522f40a429c41d7ecedfb8374.png",
+            "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b765392e38dcda29dd055a3af6885f7b6fc3e70997a58ecfa97ef32b7ec95478.png",
+            "flavorText": "The dramatically detailed terrifically trimmed replica of the real thing!",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/24ed7b6ce0926a0bed025891de26836e59d3596c76188980ac233dd311e6c1b8.png",
+            "keywordIds": [
+                78
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 64343,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8bcb8a2bc2f24138cd77b271152d575564ebd20be8288bdc10b9c7da16ab8719.png",
+                "imageGold": ""
+            }
+        },
+        {
+            "id": 976,
+            "collectible": 1,
+            "slug": "976-murloc-tidehunter",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 14,
+            "cardTypeId": 4,
+            "cardSetId": 1635,
+            "rarityId": 2,
+            "artistName": "Dan Scott",
+            "health": 1,
+            "attack": 2,
+            "manaCost": 2,
+            "name": "Murloc Tidehunter",
+            "text": "<b>Battlecry:</b> Summon a 1/1 Murloc Scout.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ed9310d1ff04c673b1bb03a95c87d1ff02c866f7144447c7876acb4cf330b0c.png",
+            "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/122d8beee693d6902c789732eb32f00d0982d5f2b3044d307eb37df4ea1f4a3b.png",
+            "flavorText": "\"Death will rise, from the tides!\"",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2a3e2145e552b11d9470e1a7be50662b9fcd75a0287b33d3adbe21271c642c3.png",
+            "childIds": [
+                1078
+            ],
+            "keywordIds": [
+                8
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 57338,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dbc2db752d42f19c0edd1f15bc420cf235ee2f9e47a137c04e2ded175b1814b6.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c67997df502249fd0a55a70e86cbfd2a5e988d4b5783b718df63e58997915ffc.png"
+            },
+            "duels": {
+                "relevant": true,
+                "constructed": true
+            }
+        },
+        {
+            "id": 72387,
+            "collectible": 0,
+            "slug": "72387-pupbot",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 17,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 1,
+            "attack": 2,
+            "manaCost": 1,
+            "name": "Pupbot",
+            "text": "<b>Divine Shield</b>",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f46fefe01bc3827d2f05751b6d0e5b732a1664d557ac664a418331069ef6dd16.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/52a3d694332e62de9e7ee8f0e43650d593229ff9a89239239b887b36f8e5542e.png",
+            "keywordIds": [
+                3
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 73015,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/28e02e07b931b2cf1eadc5944f7d870de6a0912ae8bf384fc1018e7df0aebe91.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/524d07b82a7b40151e509b66f1147c0e3e92b4c7d3bd1386e37a5689d3045a5f.png"
+            }
+        },
+        {
+            "id": 70143,
+            "collectible": 0,
+            "slug": "70143-razorfen-geomancer",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 43,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 1,
+            "attack": 3,
+            "manaCost": 1,
+            "name": "Razorfen Geomancer",
+            "text": "<b>Battlecry:</b> Gain a <b>Blood Gem</b>.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f3b8ef91da32d7d7136fac1f8f14f34c88cda3579437abb27f29f835d6df664.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1e5dd54575543c5311f46868b4ed09a711707fecc0e9d7dacc639806125a13a.png",
+            "keywordIds": [
+                8,
+                109
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 70150,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/341d309313c5b39cbfec33405e8db61428caab24b929c90973f4bfda4b5a1b37.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec2abf09c9a11cebd08244a2fb8c5db06784cd93bd6ca1f17efa825bc73e8e1e.png"
+            }
+        },
+        {
+            "id": 59968,
+            "collectible": 0,
+            "slug": "59968-red-whelp",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 24,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 2,
+            "attack": 1,
+            "manaCost": 1,
+            "name": "Red Whelp",
+            "text": "<b>Start of Combat:</b> Deal 1 damage per friendly Dragon to one random enemy minion.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e189f5d3d0f7d1faf4a1b054f4f4f7f782db068ea64e7b33af97863d73a37654.png",
+            "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/48e24c34bef651da6d78db4677bc8a4538b748d01bcf9809852550a14db59bd7.png",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f40a910f9f93afe14379fd1a37504a0cae5c5be6ddf2853cf1a1772e87f028b7.png",
+            "keywordIds": [
+                92
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 60642,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0aebf106ae6f8c293dffe1308d70e8d588d73d291c2d326f238eb4abbd7f3f85.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a8f74da82812c1efb0a24fa69d3ef819d7ac6996392ffa091b07327c874c165e.png"
+            }
+        },
+        {
+            "id": 64042,
+            "collectible": 0,
+            "slug": "64042-refreshing-anomaly",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 18,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 4,
+            "attack": 1,
+            "manaCost": 1,
+            "name": "Refreshing Anomaly",
+            "text": "<b>Battlecry:</b> Your next <b>Refresh</b> costs (0).",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/04e87a4ad677fdd58fa882502cb30a32bea3ca7efae1f02859278693159b66df.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af73fd5d11cfa43215f4de8269698325013b847e564566652c43db0c6c7ac2d9.png",
+            "keywordIds": [
+                8,
+                196,
+                197
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 64045,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae22da43effd5db6412e5a55ad87d02b517cfb8d8393c03d70086b1f12ad73ed.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c13c57b10d9c231f60f6b0da2107c53a4b1a1a8aea0f01bc78b59f0f1df1dcd1.png"
+            }
+        },
+        {
+            "id": 41245,
+            "collectible": 1,
+            "slug": "41245-rockpool-hunter",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 14,
+            "cardTypeId": 4,
+            "cardSetId": 27,
+            "rarityId": 1,
+            "artistName": "Alex Horley Orlandelli",
+            "health": 3,
+            "attack": 2,
+            "manaCost": 2,
+            "name": "Rockpool Hunter",
+            "text": "<b>Battlecry:</b> Give a friendly Murloc +1/+1.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d84912dd5347267cddf9ba05277af6ccc9e1aee4d4fce2358e1e6624cd866f7.png",
+            "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90564a5387b7a61e813c5076dc74193a572112470b37061880da842e555c3349.png",
+            "flavorText": "Loves crab meat. Fears crabs.",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0a14b911205e7dc129bd2d58563ad59b0e5198de6a7410c277278549e1bf721.png",
+            "keywordIds": [
+                8
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 59485,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b915140e3d447ecac4895d01b31f5806c400c4427d29c3748f6585997141e59e.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dff0eb769e0c1f66f3fa7f9777fa86503f03fa51574ba9297e3588087c1c0d6d.png"
+            },
+            "duels": {
+                "relevant": true,
+                "constructed": true
+            }
+        },
+        {
+            "id": 61061,
+            "collectible": 0,
+            "slug": "61061-scallywag",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 23,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 1,
+            "attack": 2,
+            "manaCost": 1,
+            "name": "Scallywag",
+            "text": "<b>Deathrattle:</b> Summon a 1/1 Pirate. It attacks immediately.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a851719a6b69e3a4d87316f603584f119cc49aaf0384a63497edf4aa2602f5e.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3aeda5402d233027111fd20156bf3d0842662cb04e97d18bde5785f82f8344f2.png",
+            "childIds": [
+                62213
+            ],
+            "keywordIds": [
+                12
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 62262,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03a87d228608e177adeb51b3b60d2270dc4f69fb0e154ec8a500eab1e5df4109.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b4a62584563a02afa888f96c57c821e13aa73d0922e763af75a6a12fdaa80f5a.png"
+            }
+        },
+        {
+            "id": 1281,
+            "collectible": 1,
+            "slug": "1281-scavenging-hyena",
+            "classId": 3,
+            "multiClassIds": [],
+            "minionTypeId": 20,
+            "cardTypeId": 4,
+            "cardSetId": 3,
+            "rarityId": 1,
+            "artistName": "Jim Nelson",
+            "health": 2,
+            "attack": 2,
+            "manaCost": 2,
+            "name": "Scavenging Hyena",
+            "text": "Whenever a friendly Beast dies, gain +2/+1.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebbd9ec4792752a471a21cd9777c90021af03300fa6bb86db63e9a5b5a38a79e.png",
+            "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c1bae20ca51f1bcab9c873d461f40a5ec161d135448816de830750518f6e5d5.png",
+            "flavorText": "Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything. Even Brussels sprouts.",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f6c3b527c5167d999194996cc8044c0bc7fa6675b14c0ea44bbf659ba31f5a9.png",
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 58395,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/24e4ebbbb107a05748c224674f384f6964534dac3e46d9e22002cf94e0f438ef.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a8253155a10749c91ea12d52963aafa96792537b91b0bdbde60200cd077ccc35.png"
+            },
+            "duels": {
+                "relevant": true,
+                "constructed": true
+            }
+        },
+        {
+            "id": 64038,
+            "collectible": 0,
+            "slug": "64038-sellemental",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 18,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 2,
+            "attack": 2,
+            "manaCost": 3,
+            "name": "Sellemental",
+            "text": "When you sell this, add a 2/2 Elemental to your hand.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c2b3aeb88207798e1e12fa6eb4df2968a3145359b76c17c98c76c2304faff03.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b76411d62906eda3deff828da0bfbaf13f5776509d7e71cc5b7fbd8bb0612e0.png",
+            "childIds": [
+                64040
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 64041,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5d13734ca3f1864135408a409619b98ebdbe9d937540bde86e5ced0e81f8a577.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f92f564fd9999654d099e1ab813970b5991080bfa5e23f6326e0149985426fe1.png"
+            }
+        },
+        {
+            "id": 70147,
+            "collectible": 0,
+            "slug": "70147-sun-bacon-relaxer",
+            "classId": 12,
+            "multiClassIds": [],
+            "minionTypeId": 43,
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": null,
+            "artistName": null,
+            "health": 2,
+            "attack": 1,
+            "manaCost": 3,
+            "name": "Sun-Bacon Relaxer",
+            "text": "When you sell this, gain 2 <b>Blood Gems</b>.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d47127e60f8b3dfa5fb7284d84b42175f8be1f81915149e930c575e6056a690.png",
+            "imageGold": "",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f5fd522576f531e503088a37f7102035d4d316e13ab1cbf268c45e184af4e53.png",
+            "keywordIds": [
+                109
+            ],
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 70148,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a896969334d820e26b1d744dfaa8d0055ac6f9031890e06df3cde3a24addc68d.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9da3f4c768967b78780b33f42477b441af2e173e6c11b0bb1c5a47406372d121.png"
+            }
+        },
+        {
+            "id": 59670,
+            "collectible": 0,
+            "slug": "59670-wrath-weaver",
+            "classId": 12,
+            "multiClassIds": [],
+            "cardTypeId": 4,
+            "cardSetId": 1453,
+            "rarityId": 1,
+            "artistName": null,
+            "health": 3,
+            "attack": 1,
+            "manaCost": 1,
+            "name": "Wrath Weaver",
+            "text": "After you play a Demon, deal 1 damage to your hero and gain +2/+2.",
+            "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ff521bd9d826445b2989fd9f96cf83286dec61d161099fd4ad7a3e8aa369bc4.png",
+            "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e97da95dc96b1248866bcb1cc554846faa663858ac9c339a97bf6671ab641d0d.png",
+            "flavorText": "",
+            "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/385e0189de3129570e058c0079ad02c9c379f02e3afc66a446d65d8505cf1976.png",
+            "battlegrounds": {
+                "tier": 1,
+                "hero": false,
+                "upgradeId": 59679,
+                "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/87de62571189bd00b112cc7c8bfaa861091258781a1a0625e8a4f152ec3b668b.png",
+                "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/141c80ccb54ffc16a528ae5b5568dcb5b68ad04461066f1c7711ec1fbab22922.png"
+            }
+        }
+    ],
+    "cardCount": 18,
+    "pageCount": 1,
+    "page": 1
+}
